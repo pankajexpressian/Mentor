@@ -5,6 +5,11 @@
     <UserSecretsId>aspnet-Mentor-1F8A2312-1006-42F0-8EE5-6B37458CE665</UserSecretsId>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Data\Migrations\20200214094553_addIdentityTables.cs" />
+    <Compile Remove="Data\Migrations\20200214094553_addIdentityTables.Designer.cs" />
+  </ItemGroup>
+
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.0" />
